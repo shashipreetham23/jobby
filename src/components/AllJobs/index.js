@@ -90,7 +90,7 @@ class AllJobs extends Component {
     const {checkboxInputs, radioInput, searchInput} = this.state
     const profileApiUrl = 'https://apis.ccbp.in/profile'
     const optionsProfile = {
-      header: {
+      headers: {
         Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
@@ -120,7 +120,7 @@ class AllJobs extends Component {
     const {checkboxInputs, radioInput, searchInput} = this.state
     const JobsApiUrl = `https://apis.ccbp.in/jobs?employment_type=${checkboxInputs}&minimum_package=${radioInput}&search=${searchInput}`
     const optionsJobs = {
-      header: {
+      headers: {
         Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
