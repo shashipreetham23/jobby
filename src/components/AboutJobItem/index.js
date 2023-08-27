@@ -71,7 +71,7 @@ class AboutJobItem extends Component {
         title: each.title,
       }))
 
-      const updatedSimilarJobDetails = fetchedJobData.Similar_jobs.map(
+      const updatedSimilarJobDetails = fetchedJobData.similar_jobs.map(
         each => ({
           companyLogoUrl: each.company_logo_url,
           id: each.id,
