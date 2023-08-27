@@ -2,7 +2,7 @@ import Header from '../Header'
 
 import './index.css'
 
-const notFoundImage = ''
+const notFoundImage = 'https://assets.ccbp.in/frontend/react-js/jobby-app-not-found-img.png'
 
 const NotFound = () => (
   <>
