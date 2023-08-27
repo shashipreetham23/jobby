@@ -357,7 +357,7 @@ class AllJobs extends Component {
           <div className="side-bar-container">
             {this.onRenderProfileStatus()}
             <hr className="hr-line" />
-            <h1 className="text">Type of Employement</h1>
+            <h1 className="text">Type of Employment</h1>
             {this.onGetCheckBoxesView()}
             <hr className="hr-line" />
             <h1 className="text">Salary Range</h1>
